@@ -10,7 +10,7 @@ import org.springframework.context.annotation.FilterType;
  */
 @EnableAutoConfiguration
 @ComponentScan(basePackages = "radzik.michal", excludeFilters = @ComponentScan.Filter(value = org.springframework.context.annotation.Configuration.class, type = FilterType.ANNOTATION))
-public class Application {
+public class    Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
 
